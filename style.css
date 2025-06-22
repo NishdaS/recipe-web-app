@@ -1,0 +1,440 @@
+/* Set global font and background color for the entire page */
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: #fff5f7; /* Soft muted pink background for a gentle look */
+  color: #333; /* Dark gray text color for readability */
+}
+
+/* Style for success buttons (e.g., confirmation buttons in news sections) */
+.btn-success {
+  background-color: #ff6f91; /* Pink background color for buttons */
+  border-color: #ff6f91;     /* Matching border color */
+}
+
+/* Styling for images at the top of home page cards */
+.card-img-top {
+  height: 180px;          /* Fixed height to maintain uniform card size */
+  object-fit: cover;      /* Crop/resize images to fill the area without distortion */
+}
+
+/* Button success hover state */
+.btn-success:hover {
+  background-color: #ff4e7c; /* Darker pink shade on hover for visual feedback */
+  border-color: #ff4e7c;     /* Match border color with background on hover */
+}
+
+/* Outline style for primary buttons */
+.btn-outline-primary {
+  color: #ff6f91;            /* Pink text color */
+  border-color: #ff6f91;     /* Pink border */
+}
+
+/* Hover effect for outline primary buttons */
+.btn-outline-primary:hover {
+  background-color: #ff6f91; /* Pink background fills button on hover */
+  color: white;              /* Text color changes to white for contrast */
+}
+
+/* Outline style for pink-themed buttons */
+.btn-outline-pink {
+  color: #d63384;            /* Deep pink text color */
+  border-color: #d63384;     /* Deep pink border */
+}
+
+/* Hover effect for outline pink buttons */
+.btn-outline-pink:hover {
+  background-color: #d63384; /* Deep pink background on hover */
+  color: white;              /* Text turns white for readability */
+}
+
+/* About section pink buttons */
+.btn-pink {
+  background-color: #e83e8c; /* Bright pink background */
+  color: white;              /* White text */
+  transition: all 0.3s ease; /* Smooth transition effect on hover */
+}
+
+/* Hover effect for about section pink buttons */
+.btn-pink:hover {
+  background-color: #d6336c; /* Slightly darker pink on hover */
+  color: white;              /* Text remains white */
+}
+
+/* Recipe detail card title spacing */
+.card-title {
+  margin-bottom: 1rem;       /* Adds spacing below titles for readability */
+}
+
+/* Styling list group items (e.g., ingredients, steps) */
+.list-group-item {
+  font-size: 1.05rem;        /* Slightly larger font size for better legibility */
+  background-color: #fff0f5;
+  border-color: #ffe4ec;
+}
+
+/* recipe */
+.like-btn {
+  cursor: pointer;
+  color: #e83e8c;
+  transition: color 0.3s ease;
+}
+
+/* Loading spinner container */
+.loading-spinner {
+  display: flex;                 /* Use flexbox for layout */
+  flex-direction: column;        /* Stack children vertically */
+  align-items: center;           /* Center children horizontally */
+  padding: 2rem;                 /* Space around spinner and text */
+  color: #42b983;                /* Vue.js green for spinner and text */
+  font-weight: bold;             /* Emphasize loading text */
+}
+
+/* Spinner circle */
+.spinner {
+  width: 40px;                   /* Fixed width */
+  height: 40px;                  /* Fixed height */
+  border: 4px solid #42b983;     /* Solid green border */
+  border-top: 4px solid transparent; /* Top border transparent for spinning effect */
+  border-radius: 50%;            /* Make it circular */
+  animation: spin 1s linear infinite; /* Rotate continuously */
+  margin-bottom: 1rem;           /* Space below spinner */
+}
+
+/* Keyframes for spinner rotation */
+@keyframes spin {
+  to {
+    transform: rotate(360deg);  /* Rotate full circle */
+  }
+}
+
+/* Form inputs and textarea styles */
+input.form-control,
+textarea.form-control,
+select.form-select {
+  border-color: #ffc1cc;         /* Soft pink border */
+}
+
+/* Small muted text (e.g., timestamps) */
+small.text-muted {
+  color: #999;                   /* Light gray text */
+}
+
+/* Navbar styles for responsive design */
+.navbar {
+  background-color: #fff5f7;     /* Soft muted pink background */
+  border-bottom: 2px solid #ffdbe8; /* Light pink bottom border */
+  padding: 1rem 2rem;            /* Spacing inside navbar */
+  font-family: 'Poppins', sans-serif; /* Clean, modern font */
+}
+
+/* Navbar header container */
+.nav-header {
+  display: flex;                 /* Flex container */
+  justify-content: space-between; /* Space between elements */
+  align-items: center;           /* Vertically center items */
+}
+
+/* Logo styling */
+.logo {
+  margin: 0 auto;                /* Center logo horizontally */
+  font-weight: bold;             /* Bold font */
+  color: #b83b5e;               /* Deep pink color */
+  font-size: 1.75rem;            /* Larger font size */
+  text-decoration: none;         /* Remove underline */
+  position: relative;            /* Required for ::after positioning */
+}
+
+/* Logo hover color change */
+.logo:hover {
+  color: #ff4e7c;               /* Brighter pink on hover */
+}
+
+/* Logo underline effect on hover */
+.logo::after {
+  content: "";                  /* Empty content for decorative underline */
+  position: absolute;           /* Position relative to logo */
+  width: 0%;                   /* Start hidden */
+  height: 2px;                 /* Thickness of underline */
+  left: 0;                     /* Align left */
+  bottom: -4px;                /* Slightly below text */
+  background-color: #b83b5e;   /* Deep pink underline */
+  transition: width 0.3s ease; /* Smooth underline animation */
+}
+
+/* Animate underline width on hover */
+.logo:hover::after {
+  width: 100%;                 /* Full underline on hover */
+}
+
+/* Navbar collapse container for links */
+.navbar-collapse {
+  display: flex;               /* Flex container */
+  justify-content: space-between; /* Space links apart */
+  align-items: center;         /* Vertically center */
+}
+
+/* Navbar collapse when open (e.g., on mobile) */
+.navbar-collapse.open {
+  display: flex;               /* Ensure flex display when open */
+}
+
+/* Hamburger menu button for mobile */
+.hamburger {
+  display: none;               /* Hidden by default (desktop) */
+  font-size: 1.5rem;           /* Larger icon */
+  justify-content: right;      /* Align right */
+  background: none;            /* No background */
+  border: none;                /* No border */
+  cursor: pointer;             /* Pointer cursor on hover */
+  color: #b83b5e;             /* Deep pink icon color */
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+  flex-wrap: wrap;
+  margin-top: 0.5rem;
+}
+
+.nav-link {
+  position: relative;
+  text-decoration: none;
+  color: #b83b5e;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  left: 0;
+  bottom: -4px;
+  background-color: #b83b5e;
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #ff4e7c;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.logout-btn {
+  background-color: transparent;
+  color: #ff6f91;
+  border: 1px solid #ff6f91;
+  padding: 0.3rem 0.8rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.logout-btn:hover {
+  background-color: #ff6f91;
+  color: white;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.8rem;
+    margin-top: 1rem;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+#app {
+  height: 100%;
+}
+
+#app-container {
+  min-height: 100vh; /* ensures full screen height */
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex-grow: 1; /* fills available vertical space between navbar and footer */
+  padding: 1rem; /* optional: add padding */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Actual  footer */
+.footer {
+  background-color: #fff0f5;
+  color: #b83b5e;
+  text-align: center;
+  padding: 1rem 0;
+  border-top: 1px solid #ffd6e8;
+  font-size: 0.9rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.recipe-card {
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  background: #fff;
+  transition: box-shadow 0.3s ease;
+}
+
+.recipe-card:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.recipe-title a {
+  text-decoration: none;
+  color: #0d6efd;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.recipe-title a:hover {
+  color: #084298;
+  text-decoration: underline;
+}
+
+.badge-ingredient {
+  background-color: #ffc107;
+  color: #212529;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  font-weight: 500;
+  font-size: 0.85rem;
+  cursor: default;
+  display: inline-block;
+  padding: 0.25em 0.6em;
+  border-radius: 0.25rem;
+}
+
+.author-badge {
+  background-color: #17a2b8;
+  color: white;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 15px;
+  font-size: 0.8rem;
+}
+
+.like-btn,
+.comment-btn {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: 600;
+  border: none;
+  background: transparent;
+  color: #0d6efd;
+  transition: color 0.3s ease;
+}
+
+.like-btn:hover,
+.comment-btn:hover {
+  color: #084298;
+}
+
+.likes-count {
+  font-weight: 500;
+  color: #495057;
+}
+
+.comment-text {
+  font-size: 0.9rem;
+}
+
+.comment-user {
+  font-weight: 700;
+  margin-right: 5px;
+}
+
+.comment-timestamp {
+  color: #6c757d;
+  font-size: 0.75rem;
+  margin-left: 5px;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+  color: white;
+  pointer-events: none;
+}
+
+.pagination .page-link {
+  color: #0d6efd;
+  cursor: pointer;
+}
+
+.pagination .page-item.disabled .page-link {
+  pointer-events: none;
+  color: #6c757d;
+  cursor: default;
+}
+
+.filter-controls {
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.login-page {
+  background: linear-gradient(to right, #e0eafc, #cfdef3);
+}
+
+.card {
+  background-color: #ffffff;
+  border: none;
+}
+
+input:focus,
+button:focus {
+  box-shadow: none;
+  border-color: #007bff;
+}
+
+
+.btn-pink {
+  background-color: #b83b5e; /* Bootstrap pink */
+  color: white;
+  border: none;
+}
+.text-pink {
+  color: #ff6f91 !important;
+}
+
+.bg-pink {
+  background-color: #ff6f91 !important;
+}
+
+.border-pink {
+  border-color:#ff6f91 !important;
+}
+
+.page-link:hover {
+  background-color: #d6338410;
+  color: #ff6f91;
+}

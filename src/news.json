@@ -1,0 +1,213 @@
+[
+  {
+    "id": 1,
+    "date": "2025-05-01",
+    "title": "New Organic Market Opens",
+    "content": "A new organic market has opened downtown offering fresh local produce.",
+    "category": "Local"
+  },
+  {
+    "id": 2,
+    "date": "2025-05-02",
+    "title": "5 Tips for Perfect Baking",
+    "content": "Discover the secrets to making your cakes and bread perfect every time.",
+    "category": "Tips"
+  },
+  {
+    "id": 3,
+    "date": "2025-05-03",
+    "title": "Food Safety Awareness",
+    "content": "Learn how to keep your kitchen safe from bacteria and contamination.",
+    "category": "Safety"
+  },
+  {
+    "id": 4,
+    "date": "2025-05-04",
+    "title": "Farmers' Market Highlights",
+    "content": "This week's farmers' market features fresh strawberries and homemade jams.",
+    "category": "Local"
+  },
+  {
+    "id": 5,
+    "date": "2025-05-05",
+    "title": "Healthy Meal Prep Ideas",
+    "content": "Get inspired with these easy and healthy meal prep ideas for the week.",
+    "category": "Tips"
+  },
+  {
+    "id": 6,
+    "date": "2025-05-06",
+    "title": "Understanding Food Labels",
+    "content": "A guide to understanding food labels and making informed choices.",
+    "category": "Safety"
+  },
+  {
+    "id": 7,
+    "date": "2025-05-07",
+    "title": "Local Chefs Share Their Secrets",
+    "content": "Local chefs share their favorite recipes and cooking tips.",
+    "category": "Local"
+  },
+  {
+    "id": 8,
+    "date": "2025-05-08",
+    "title": "Quick and Easy Snacks",
+    "content": "Try these quick and easy snack ideas for busy days.",
+    "category": "Tips"
+  },
+  {
+    "id": 9,
+    "date": "2025-05-09",
+    "title": "Kitchen Safety Tips",
+    "content": "Essential kitchen safety tips to prevent accidents and injuries.",
+    "category": "Safety"
+  },
+  {
+    "id": 10,
+    "date": "2025-05-10",
+    "title": "Seasonal Produce Guide",
+    "content": "A guide to seasonal produce and how to use them in your cooking.",
+    "category": "Local"
+  },
+  {
+    "id": 11,
+    "date": "2025-05-11",
+    "title": "Meal Planning for Beginners",
+    "content": "Learn the basics of meal planning to save time and eat healthier.",
+    "category": "Tips"
+  },
+  {
+    "id": 12,
+    "date": "2025-05-12",
+    "title": "Food Allergies and Intolerances",
+    "content": "Understanding food allergies and how to manage them in your diet.",
+    "category": "Safety"
+  },
+  {
+    "id": 13,
+    "date": "2025-05-13",
+    "title": "Local Food Festivals Coming Up",
+    "content": "Don't miss the upcoming local food festivals celebrating our community's cuisine.",
+    "category": "Local"
+  },
+  {
+    "id": 14,
+    "date": "2025-05-14",
+    "title": "Healthy Breakfast Ideas",
+    "content": "Start your day right with these healthy breakfast ideas.",
+    "category": "Tips"
+  },
+  {
+    "id": 15,
+    "date": "2025-05-15",
+    "title": "Understanding Foodborne Illnesses",
+    "content": "Learn about common foodborne illnesses and how to prevent them.",
+    "category": "Safety"
+  },
+  {
+    "id": 16,
+    "date": "2025-05-16",
+    "title": "Local Farmers Share Their Stories",
+    "content": "Meet the local farmers who grow our food and learn about their practices.",
+    "category": "Local"
+  },
+  {
+    "id": 17,
+    "date": "2025-05-17",
+    "title": "Healthy Lunch Ideas for Work",
+    "content": "Pack these healthy lunch ideas for work to stay energized throughout the day.",
+    "category": "Tips"
+  },
+  {
+    "id": 18,
+    "date": "2025-05-18",
+    "title": "Kitchen Equipment Safety",
+    "content": "Essential tips for using kitchen equipment safely and effectively.",
+    "category": "Safety"
+  },
+  {
+    "id": 19,
+    "date": "2025-05-19",
+    "title": "Local Food Heroes",
+    "content": "Celebrating the local food heroes who make our community thrive.",
+    "category": "Local"
+  },
+  {
+    "id": 20,
+    "date": "2025-05-20",
+    "title": "Healthy Dinner Recipes",
+    "content": "Try these healthy dinner recipes that are easy to make and delicious.",
+    "category": "Tips"
+  },
+
+    {
+        "id": 21,
+        "date": "2025-05-21",
+        "title": "Food Waste Reduction Tips",
+        "content": "Learn how to reduce food waste in your kitchen and make a difference.",
+        "category": "Safety"
+    },
+    {
+        "id": 22,
+        "date": "2025-05-22",
+        "title": "Local Food Artisans",
+        "content": "Discover the local food artisans who create unique products in our community.",
+        "category": "Local"
+    },
+    {
+        "id": 23,
+        "date": "2025-05-23",
+        "title": "Healthy Snack Ideas for Kids",
+        "content": "Keep your kids happy and healthy with these snack ideas.",
+        "category": "Tips"
+    },
+    {
+        "id": 24,
+        "date": "2025-05-24",
+        "title": "Food Storage Safety Tips",
+        "content": "Essential tips for storing food safely to prevent spoilage and contamination.",
+        "category": "Safety"
+    },
+    {
+        "id": 25,
+        "date": "2025-05-25",
+        "title": "Local Food Tours",
+        "content": "Join a local food tour to explore the best culinary spots in our area.",
+        "category": "Local"
+    },
+    {
+        "id": 26,
+        "date": "2025-05-26",
+        "title": "Healthy Smoothie Recipes",
+        "content": "Blend up these healthy smoothie recipes for a quick and nutritious snack.",
+        "category": "Tips"
+    },
+    {
+        "id": 27,
+        "date": "2025-05-27",
+        "title": "Food Safety Myths Debunked",
+        "content": "Don't fall for these common food safety myths that can put you at risk.",
+        "category": "Safety"
+    },
+    {
+      "id": 28,
+      "date": "2025-05-28",
+      "title": "Local Food Innovations",
+      "content": "Explore the latest innovations in local food production and sustainability.",
+      "category": "Local"
+    },
+    {
+      "id": 29,
+      "date": "2025-05-29",
+      "title": "Healthy Dessert Ideas",
+      "content": "Satisfy your sweet tooth with these healthy dessert ideas.",
+      "category": "Tips"
+    },
+    {
+      "id": 30,
+      "date": "2025-05-30",
+      "title": "Kitchen Hygiene Best Practices",
+      "content": "Keep your kitchen clean and safe with these hygiene best practices.",
+      "category": "Safety"
+    }
+]
